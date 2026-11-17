@@ -17,4 +17,10 @@ public class Impresora {
             System.out.println("texto: "+texto);
         }
     }
+
+    /*
+    public String imprimir(int numero){
+        return "El numero es : "+numero;
+    }
+    */
 }

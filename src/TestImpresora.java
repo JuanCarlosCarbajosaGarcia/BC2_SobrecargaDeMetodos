@@ -5,6 +5,6 @@ public class TestImpresora {
         impresora.imprimir(10);
         impresora.imprimir(10.5);
         impresora.imprimir("patata");
-        impresora.imprimir("patata",10);
+        impresora.imprimir("tomate",10);
     }
 }
