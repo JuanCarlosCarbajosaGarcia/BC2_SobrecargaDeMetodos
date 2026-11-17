@@ -1,8 +1,10 @@
 public class TestImpresora {
     static void main() {
-        Impresora.imprimir(10);
-        Impresora.imprimir(10.5);
-        Impresora.imprimir("patata");
-        Impresora.imprimir("patata",10);
+        Impresora impresora = new Impresora();
+
+        impresora.imprimir(10);
+        impresora.imprimir(10.5);
+        impresora.imprimir("patata");
+        impresora.imprimir("patata",10);
     }
 }
